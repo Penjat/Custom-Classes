@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B10434A72187859900438457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10434A62187859900438457 /* main.m */; };
+		B10434AF2187864C00438457 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B10434AE2187864C00438457 /* Person.m */; };
+		B10434B2218786A700438457 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B10434B1218786A700438457 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		B10434A32187859900438457 /* Custom-Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Custom-Classes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10434A62187859900438457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10434AD2187864C00438457 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B10434AE2187864C00438457 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B10434B0218786A700438457 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		B10434B1218786A700438457 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B10434A62187859900438457 /* main.m */,
+				B10434AD2187864C00438457 /* Person.h */,
+				B10434AE2187864C00438457 /* Person.m */,
+				B10434B0218786A700438457 /* Dog.h */,
+				B10434B1218786A700438457 /* Dog.m */,
 			);
 			path = "Custom-Classes";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10434B2218786A700438457 /* Dog.m in Sources */,
+				B10434AF2187864C00438457 /* Person.m in Sources */,
 				B10434A72187859900438457 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
